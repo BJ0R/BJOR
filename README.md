@@ -21,7 +21,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" height="40" />
 </p>
 
-> *P.S. You wrote **myslq** — I fixed it to **MySQL** throughout this README.*
 
 
 ## 🌐 Socials:
