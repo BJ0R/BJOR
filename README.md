@@ -1,55 +1,24 @@
-<!-- Header Section -->
-<h1 align="center">Hi there 👋, I'm Marga</h1>
-<h3 align="center">🚀 Building creative projects with code & design</h3>
 
-<!-- Profile Views & Badges -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vvreticlue&label=Profile%20views&color=0e75b6&style=flat" alt="vvreticlue" />
-  <a href="https://github.com/vvreticlue">
-    <img src="https://img.shields.io/github/followers/vvreticlue?label=Followers&style=social" />
-  </a>
-</p>
+## 🌐 Socials:
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Brian Allan Jornales) 
 
----
+# 💻 Tech Stack:
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=BJOR&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=BJOR&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=BJOR&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-## 🧑‍💻 About Me
-- 🌱 I’m currently learning **Next.js, AI integrations, and data visualization**  
-- 💡 I enjoy working on **interactive web apps, automation tools, and open-source projects**  
-- 🎨 Fun fact: I blend **art + code** to create immersive experiences  
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=BJOR&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
----
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-## 🛠️ Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,python,nodejs,html,css,tailwind,figma,git" />
-</p>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=BJOR&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=BJOR&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vvreticlue&show_icons=true&theme=radical" alt="stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vvreticlue&theme=radical" alt="streak" />
-</p>
-
----
-
-## 🎯 Featured Projects
-- 🔗 [**Cool Project 1**](#) – An AI-powered writing tool with GPT integration  
-- 🔗 [**Cool Project 2**](#) – Interactive data visualizations with D3.js & React  
-- 🔗 [**Cool Project 3**](#) – Open-source design system for modern UIs  
-
----
-
-## 🌐 Connect with Me
-<p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/YOUR-HANDLE" target="_blank">
-    <img src="https://img.shields.io/badge/-Twitter-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-  </a>
-  <a href="https://dev.to/YOUR-PROFILE" target="_blank">
-    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white"/>
-  </a>
-</p>
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
