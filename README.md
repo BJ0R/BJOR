@@ -1,244 +1,167 @@
-# ✨ Interactive GitHub README + CSS Micro‑Interaction
+<div align="center">
 
-> A polished README template with tasteful interactivity that works on GitHub, plus a **CSS‑only micro‑interaction** demo you can host via **GitHub Pages**.
+# Hi, I'm Marga 👋
 
-<p align="center">
-  <img src="https://img.shields.io/badge/License-MIT-informational" alt="license badge"/>
-  <img src="https://img.shields.io/github/stars/yourname/yourrepo?style=social" alt="stars badge"/>
-  <img src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue" alt="demo badge"/>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&pause=900\&center=true\&vCenter=true\&width=600\&lines=Building+playful+UIs;React+%2B+Vite+fan;PHP+%2B+MySQL+on+the+server;Always+learning+and+shipping)](https://git.io/typing-svg)
 
-<p align="center">
-  <strong>🧪 Live Demo:</strong> <a href="https://yourname.github.io/yourrepo">yourname.github.io/yourrepo</a>  
-  <em>(Update the link after enabling GitHub Pages.)</em>
-</p>
+</div>
 
 ---
 
-## Overview
+## 🧰 Tech I use
 
-This template gives you:
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" alt="Vite" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" height="40" />
+</p>
 
-* A **visually appealing README** with subtle built‑in interactivity using native `<details>` disclosure elements (fully supported on GitHub).
-* A **CSS‑only micro‑interaction** (no JS) — a “Star” button with ripple + sparkle effects — shipped as a small `/demo` site for GitHub Pages.
-* Accessibility‑minded, lightweight styles with `prefers-reduced-motion` support.
-
-> ⚠️ **Why a separate demo?** GitHub READMEs are sandboxed (no custom `<style>` or JS). To ship a real CSS micro‑interaction, we host a tiny demo at `/demo` and link to it.
+> *P.S. You wrote **myslq** — I fixed it to **MySQL** throughout this README.*
 
 ---
 
-## 🌟 README Micro‑Interaction (works on GitHub)
+## ✨ Micro‑interaction (works in GitHub README)
 
-You can add tasteful, zero‑CSS interactivity right in this README using `<details>`:
+Click to reveal an animated, hoverable skill/usage chart built with **CSS‑in‑SVG** (no JS).
 
 <details>
-  <summary><strong>Click to reveal a tiny confetti GIF + tips</strong></summary>
-  <br>
-  🎉 *Surprise!* Use `<details>` to hide long sections, FAQs, or previews. Combine with small GIFs/SVGs for delight without extra CSS.
+  <summary><strong>🎛️ Toggle skill chart</strong></summary>
+  <br/>
+  <p><em>Hover or tap bars for a subtle pop and tooltip. Edit the percentages right in the code.</em></p>
+
+  <!-- Responsive SVG bar chart with hover micro-interaction -->
+
+  <svg viewBox="0 0 700 320" width="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+    <title id="title">Tech usage chart</title>
+    <desc id="desc">Interactive bar chart showing usage percentages for HTML, CSS, Bootstrap, JavaScript, PHP, MySQL, React, and Vite.</desc>
+
+```
+<style>
+  .label { font: 600 14px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial; fill: #111; }
+  .pct   { font: 500 12px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial; fill: #333; }
+  .bar   { rx: 8; ry: 8; opacity: .88; transition: transform .2s ease, opacity .2s ease; }
+  .bar:hover { opacity: 1; transform: scale(1.02); filter: drop-shadow(0 1px 4px rgba(0,0,0,.15)); }
+  .grid  { stroke: #e9ecef; stroke-width: 1; }
+  .axis  { stroke: #adb5bd; stroke-width: 1.2; }
+  .note  { font: 12px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial; fill: #666; }
+</style>
+
+<!-- X gridlines -->
+<g transform="translate(150,40)">
+  <line class="grid" x1="0" y1="0" x2="500" y2="0"/>
+  <line class="grid" x1="0" y1="40" x2="500" y2="40"/>
+  <line class="grid" x1="0" y1="80" x2="500" y2="80"/>
+  <line class="grid" x1="0" y1="120" x2="500" y2="120"/>
+  <line class="grid" x1="0" y1="160" x2="500" y2="160"/>
+  <line class="grid" x1="0" y1="200" x2="500" y2="200"/>
+  <line class="grid" x1="0" y1="240" x2="500" y2="240"/>
+  <line class="axis" x1="0" y1="280" x2="500" y2="280"/>
+</g>
+
+<!-- Labels -->
+<g class="labels" text-anchor="end">
+  <text class="label" x="140" y="60">HTML</text>
+  <text class="label" x="140" y="100">CSS</text>
+  <text class="label" x="140" y="140">Bootstrap</text>
+  <text class="label" x="140" y="180">JavaScript</text>
+  <text class="label" x="140" y="220">PHP</text>
+  <text class="label" x="140" y="260">MySQL</text>
+  <text class="label" x="140" y="300">React</text>
+  <text class="label" x="140" y="340">Vite</text>
+</g>
+
+<!-- Bars (edit widths to change %) -->
+<!-- scale: 1% ≈ 4.6px (max 500px = 100%) -->
+<g transform="translate(150,40)">
+  <!-- HTML 85% -->
+  <rect class="bar" x="0" y="20" width="390" height="26" fill="#f97316"><title>HTML: 85%</title></rect>
+  <text class="pct" x="405" y="39">85%</text>
+
+  <!-- CSS 82% -->
+  <rect class="bar" x="0" y="60" width="377" height="26" fill="#0ea5e9"><title>CSS: 82%</title></rect>
+  <text class="pct" x="392" y="79">82%</text>
+
+  <!-- Bootstrap 75% -->
+  <rect class="bar" x="0" y="100" width="345" height="26" fill="#7952b3"><title>Bootstrap: 75%</title></rect>
+  <text class="pct" x="360" y="119">75%</text>
+
+  <!-- JavaScript 72% -->
+  <rect class="bar" x="0" y="140" width="330" height="26" fill="#facc15"><title>JavaScript: 72%</title></rect>
+  <text class="pct" x="345" y="159">72%</text>
+
+  <!-- PHP 65% -->
+  <rect class="bar" x="0" y="180" width="300" height="26" fill="#777bb4"><title>PHP: 65%</title></rect>
+  <text class="pct" x="315" y="199">65%</text>
+
+  <!-- MySQL 68% -->
+  <rect class="bar" x="0" y="220" width="315" height="26" fill="#3e8e41"><title>MySQL: 68%</title></rect>
+  <text class="pct" x="330" y="239">68%</text>
+
+  <!-- React 70% -->
+  <rect class="bar" x="0" y="260" width="325" height="26" fill="#61dafb"><title>React: 70%</title></rect>
+  <text class="pct" x="340" y="279">70%</text>
+
+  <!-- Vite 60% -->
+  <rect class="bar" x="0" y="300" width="275" height="26" fill="#646cff"><title>Vite: 60%</title></rect>
+  <text class="pct" x="290" y="319">60%</text>
+</g>
+
+<!-- Legend / note -->
+<text class="note" x="150" y="18">Edit widths in the code to match your own percentages.</text>
+```
+
+  </svg>
 </details>
 
 ---
 
-## 🚀 Quick Start
+## 📊 GitHub status (auto‑updating images)
 
-1. **Copy these files** into your repo (see file blocks below).
-2. Push to GitHub.
-3. **Enable GitHub Pages**: *Settings → Pages → Source: `main` → `/root`* (or `/docs` if you prefer).
-4. Update the demo link at the top of this README.
+> Replace `YOUR_GITHUB_USERNAME` with your username.
 
----
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide=contribs&rank_icon=github&hide_border=true" alt="GitHub Stats" height="155" />
+  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&hide_border=true" alt="GitHub Streak" height="155" />
+</p>
 
-## 🧩 File Tree
-
-```
-.
-├── README.md                    # This file
-└── demo/
-    ├── index.html               # Micro‑interaction demo (no JS)
-    └── styles.css               # Tiny, accessible CSS
-```
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true" alt="Top Languages" height="155" />
+</p>
 
 ---
 
-## 📄 README.md (drop‑in)
+## 🚧 Current status
 
-Copy the entire contents of this document into your `README.md` and tweak the badges/links.
-
-> The real micro‑interaction lives in `/demo`. For a quick peek, open it locally or via GitHub Pages.
-
----
-
-## 🧪 /demo — CSS‑only Micro‑Interaction
-
-### `demo/index.html`
-
-```html
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CSS Micro‑Interaction – Star Button</title>
-  <link rel="stylesheet" href="styles.css" />
-  <meta name="color-scheme" content="light dark" />
-</head>
-<body>
-  <main class="wrap" aria-label="CSS micro‑interaction demo">
-    <section class="card">
-      <h1>Star this project</h1>
-      <p class="muted">A tiny, accessible, CSS‑only micro‑interaction (no JS).</p>
-
-      <!-- Accessible toggle: checkbox holds state, label acts as button -->
-      <input type="checkbox" id="star-toggle" class="visually-hidden" aria-label="Toggle star" />
-      <label for="star-toggle" class="star-btn">
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-        </svg>
-        <span class="label">Star</span>
-      </label>
-
-      <p class="hint">Tip: try click, hover, and focus. Toggle persists while the page is open.</p>
-    </section>
-
-    <footer class="footer">
-      <a href=".." class="back">← Back to README</a>
-    </footer>
-  </main>
-</body>
-</html>
-```
-
-### `demo/styles.css`
-
-```css
-/* -- Design tokens ------------------------------------------------------- */
-:root {
-  --bg: #0b0b10;
-  --panel: #12121a;
-  --text: #e9e9ef;
-  --muted: #a5a7b0;
-  --primary: #7aa2ff;
-  --accent: #ffd166;
-  --ring: #89b4fa;
-  --shadow: 0 10px 30px rgba(0,0,0,.35);
-}
-
-@media (prefers-color-scheme: light) {
-  :root { --bg:#fafafa; --panel:#ffffff; --text:#0b0b10; --muted:#69707f; --shadow:0 10px 30px rgba(0,0,0,.08); }
-}
-
-/* -- Layout -------------------------------------------------------------- */
-* { box-sizing: border-box; }
-html, body { height: 100%; }
-body { margin:0; font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, sans-serif; background:var(--bg); color:var(--text); }
-.wrap { min-height:100%; display:grid; place-items:center; padding: 48px 20px; }
-.card { width:min(720px, 92vw); background:var(--panel); border-radius:24px; padding:32px; box-shadow:var(--shadow); border:1px solid rgba(255,255,255,.06); }
-.card h1 { margin:0 0 6px; font-weight:750; letter-spacing:.2px; }
-.card .muted { margin:0 0 20px; color:var(--muted); }
-.footer { margin-top: 24px; text-align:center; }
-.back { color:var(--primary); text-decoration:none; }
-.back:hover { text-decoration:underline; }
-
-/* -- Accessibility helpers ---------------------------------------------- */
-.visually-hidden { position:absolute; width:1px; height:1px; margin:-1px; padding:0; overflow:hidden; clip:rect(0 0 0 0); clip-path: inset(50%); border:0; white-space:nowrap; }
-:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--ring); border-radius: 12px; }
-
-/* -- Star button --------------------------------------------------------- */
-.star-btn { position: relative; display:inline-grid; grid-auto-flow:column; align-items:center; gap:.6rem; cursor:pointer; user-select:none; border-radius:16px; padding:12px 18px; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(0,0,0,.08)); border:1px solid rgba(255,255,255,.10); transition: transform .15s ease, border-color .2s ease; }
-.star-btn .icon { width:22px; height:22px; fill: none; stroke: none; }
-.star-btn .label { font-weight:650; letter-spacing:.2px; }
-
-/* Hover lift + subtle ripple seed */
-.star-btn:hover { transform: translateY(-1px); }
-.star-btn:active { transform: translateY(0); }
-
-/* Ripple on click (no JS): use ::after seeded & animated on :active) */
-.star-btn::after { content:""; position:absolute; inset:0; border-radius: inherit; pointer-events:none; opacity:0; background: radial-gradient( circle at var(--x,50%) var(--y,50%), rgba(255,255,255,.35), transparent 45% ); }
-.star-btn:active::after { animation: ripple .5s ease forwards; }
-
-@keyframes ripple { from { opacity:.35; } to { opacity:0; transform: scale(1.08); } }
-
-/* Sparkle burst when checked */
-.star-btn::before { content:""; position:absolute; inset:-6px; border-radius:inherit; pointer-events:none; opacity:0; background:
-  radial-gradient(6px 6px at 20% 30%, var(--accent), transparent 60%),
-  radial-gradient(5px 5px at 75% 35%, #fff6b3, transparent 60%),
-  radial-gradient(4px 4px at 40% 80%, #ffe08a, transparent 60%),
-  radial-gradient(5px 5px at 60% 65%, #fff, transparent 60%);
-  filter: blur(.2px);
-}
-
-/* Checkbox drives state */
-#star-toggle:checked + .star-btn { border-color: rgba(255,209,102,.7); box-shadow: 0 8px 24px rgba(255,209,102,.18), inset 0 0 0 1px rgba(0,0,0,.06); }
-#star-toggle:checked + .star-btn .icon { fill: var(--accent); }
-#star-toggle:checked + .star-btn .label::after { content:"d"; /* Star -> Starred */ }
-
-#star-toggle:checked + .star-btn::before { animation: burst .6s cubic-bezier(.2,.7,.2,1) forwards; }
-
-@keyframes burst {
-  0% { opacity:0; transform: scale(.8) rotate(0deg); }
-  20% { opacity:1; transform: scale(1.04) rotate(8deg); }
-  100% { opacity:0; transform: scale(1.3) rotate(0deg); }
-}
-
-/* Motion safety */
-@media (prefers-reduced-motion: reduce) {
-  .star-btn, .star-btn::before, .star-btn::after { transition: none; animation: none !important; }
-}
-
-/* Pointer‑positioned ripple (progressive enhancement) ------------------- */
-/* Without JS, we default ripple center to 50%/50%. To enhance, you can
-   optionally add a tiny JS snippet to set --x/--y on pointermove/down.
-   Purists can omit; the effect still works. */
-```
+* 🔭 Building: Small apps with **React + Vite**
+* 🗄️ Improving: **PHP** backends connected to **MySQL**
+* 📚 Learning: Better **JS** patterns and **Bootstrap** theming
+* 🤝 Open to: Collaboration, feedback, and PRs
 
 ---
 
-## 🧭 How it works
+## 🛠️ How to use this README
 
-* **State without JS:** A hidden checkbox `#star-toggle` holds the on/off state. The label next to it is the clickable control.
-* **Animations:**
-
-  * Press ripple: `:active` triggers `::after` with a radial‑gradient that fades out.
-  * Success burst: `#star-toggle:checked + .star-btn::before` fires a one‑shot sparkle keyframe.
-  * Icon fill: the star path fills with `--accent` when checked.
-* **A11y:** The input has an `aria-label`, focus is visible, and motion respects `prefers-reduced-motion`.
+1. **Copy‑paste** into your repo’s `README.md`.
+2. Replace every `YOUR_GITHUB_USERNAME` with your actual username.
+3. Tweak the **percentages** in the SVG bars to reflect your real usage.
+4. Swap or expand the tech icons in **Tech I use**.
+5. Optional: Add your socials/portfolio links.
 
 ---
 
-## 🛠 Local preview
+## 💡 Ideas to improve further
 
-Open `demo/index.html` in a browser (double‑click). That’s it.
-
----
-
-## 🌐 Publish on GitHub Pages
-
-1. Push the repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Set **Source** to your branch (e.g., `main`) and **/root** (or `/docs`).
-4. Your demo will be available at `https://<username>.github.io/<repo>/`.
-
-> Update the Live Demo link at the top of the README.
+* Add a **Projects** section with pinned cards/screenshots.
+* Use **GitHub Actions** to auto‑update metrics (e.g., WakaTime, stars, blog posts).
+* Add a **visitors** or **profile views** badge.
+* Include a short **About me** and a **Contact** section.
+* Add a small **demo GIF** for your favorite project.
 
 ---
 
-## ✅ Checklist
-
-* [ ] Replace `yourname/yourrepo` in badges & links
-* [ ] Enable GitHub Pages
-* [ ] Tweak colors/rounding in `styles.css`
-* [ ] Add a project banner image or SVG logo
-
----
-
-## 📎 Extras (optional)
-
-* Add a small **SVG banner** or logo at the top of the README for branding.
-* Record a short **GIF** of the micro‑interaction and embed it in the README.
-* Add a **dark/light** logo swap using two images with a `<picture>` element on the demo page.
-
----
-
-## 📝 License
-
-MIT — do whatever, just keep the notice.
+<sub>Made with ❤️ — minimal, accessible, and GitHub‑friendly (no external JS).</sub>
